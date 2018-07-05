@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+
+.blank {
+	height: 200px;
+}
+.maxWidth {
+	max-width: 1600px;
+	margin-left: 100px;
+}
+.maxWidth2 {
+	max-width: 1300px;
+	margin-left: 100px;
+	float: left;
+}
+.maxWidth3 {
+	max-width: 300px;
+	margin-left: 10px;
+	float: left;
+}
+tr      {
+cursor:pointer;
+}
+tr:hover    {
+color:#dd0000;
+background-color:#ccc;
+}
