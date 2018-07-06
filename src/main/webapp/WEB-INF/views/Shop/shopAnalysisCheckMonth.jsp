@@ -81,6 +81,7 @@
 		</table>
 	</div>
 	<div>
+		<a href="shopAnalysisCheckYear" class="btn btn-warning btn-block">年度別データに戻る</a>
 		<a href="shopMenu" class="btn btn-default btn-block">メニュー</a>
 	</div>
 	</div>

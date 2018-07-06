@@ -47,8 +47,8 @@
 				<img class="d-block mx-auto mb-4"
 					src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg"
 					alt="" width="72" height="72">
-	<h2>分析データ2018年度</h2>
-	<p>各月カラムをクリックで日別ページに移動します</p>
+	<h2>分析データ</h2>
+	<p>各年度カラムをクリックで日別ページに移動します</p>
 	<div class="table-responsive">
 		<table class="table table-bordered table-condensed">
 			<thead class="thead-dark">
@@ -58,15 +58,15 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr data-href="shopAnalysisCheckDate">
+				<tr data-href="shopAnalysisCheckMonth">
 					<td>2016</td>
 					<td>45％</td>
 				</tr>
-				<tr data-href="shopAnalysisCheckDate">
+				<tr data-href="shopAnalysisCheckMonth">
 					<td>2017</td>
 					<td>50％</td>
 				</tr>
-				<tr data-href="shopAnalysisCheckDate">
+				<tr data-href="shopAnalysisCheckMonth">
 					<td>2018</td>
 					<td>70％</td>
 				</tr>

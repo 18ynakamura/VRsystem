@@ -54,22 +54,20 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
-							<td>テスト</td>
-							<td>テスト</td>
-							<td>テスト</td>
-							<td>テスト</td>
-							<td><a class="btn btn-danger" href="shopReservationDelete"
-								role="button">キャンセルする</a></td>
-						</tr>
-						<c:forEach items="${userlist}" var="user">
+
+						<c:forEach items="${reservelist}" var="reserve">
 							<tr>
-								<td>${fn:escapeXml(user.userName)}</td>
-								<td>${fn:escapeXml(user.userPeoples)}</td>
-								<td>${fn:escapeXml(user.visitTime)}</td>
-								<td>${fn:escapeXml(user.seatType)}</td>
-								<td><a class="btn btn-danger" href="shopReservationDelete"
-									role="button">キャンセルする</a></td>
+								<td>${fn:escapeXml(reserve.user_name)}</td>
+								<td>${fn:escapeXml(reserve.num)}</td>
+								<td>${fn:escapeXml(reserve.time)}</td>
+								<td>${fn:escapeXml(reserve.seat_id)}</td>
+								<td>
+								<form:form action="shopReservationDelete" method="POST" >
+							<button type="submit" class="btn btn-danger"
+							name="shopReservationDelete" value="${fn:escapeXml(reserve.reservation_id)}">
+							キャンセルする
+							</button></td>
+							</form:form>
 							</tr>
 						</c:forEach>
 					</tbody>
